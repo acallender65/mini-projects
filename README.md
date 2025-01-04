@@ -6,7 +6,9 @@ This includes:
       - Add the rest of the ciphers
 - a simple "safe" login page
   - website writes to a database and encrypts password
+  - the website works on your pc if downloaded and/or ran in vscode
   - to improve I need to:
+      - put the website on github pages so that it can be accessed properly
       - fix some bugs within the website
       - create a better success page
       - use a stronger encryption method for the password
