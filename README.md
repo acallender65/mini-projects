@@ -2,7 +2,7 @@
 
 This includes: 
 - a simple encryption and decryption tool
-  -to improve I need to:
+  - to improve I need to:
       - Add the rest of the ciphers
 - a simple "safe" login page
   - website writes to a database and encrypts password
