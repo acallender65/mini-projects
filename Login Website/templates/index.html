@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/style.css">
+        <title>Login Page</title>
+    </head>
+    <body>
+        <div class="formbox">
+            <div class="loginform">
+                <h2>Login</h2>
+                <form action="/goodbye" class="form" method="post">
+                    <div class="input">
+                        <label>Username</label>
+                        <input type="username" required name="username">
+                    </div>
+                    <div class="input">
+                        <label>Password</label>
+                        <input type="password" required name="password">
+                    </div>
+                    <button type="submit" class="logregbtn" value="Submit" name="form">Login</button>
+                    <div class="regaccorlogin">
+                        <p>Don't have an account? <a href="#" class="reglink" onclick="resetfunction()">Register</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="registrationform">
+                <h2>Register</h2>
+                <form action="/hello" class="form" method="post">
+                    <div class="input">
+                        <label>Username</label>
+                        <input type="username" required name="username">
+                    </div>
+                    <div class="input">
+                        <label>Password</label>
+                        <input type="password" required name="password">
+                    </div>
+                    <button type="submit" class="logregbtn" value="Submit" name="form">Register</button>
+                    <div class="regaccorlogin">
+                        <p>Would you like to login? <a href="#" class="loglink" onclick="resetfunction()">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div> 
+       <script src="/static/script.js"></script>  
+       <script> 
+        function resetfunction() {
+            document.querySelector(".form").reset();
+        }
+       </script>  
+    </body>
+</html>
