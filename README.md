@@ -1,7 +1,7 @@
 # mini-projects
 
 This includes: 
-- a simple encryption and decryption tool - realised I uploaded the wrong version
+- a simple encryption and decryption tool - correct version uploaded now 
   - to improve I need to:
       - Add the rest of the ciphers - vignere cipher, playfair cipher, diffie hellman and elgamal cipher not added yet 
 - a simple "safe" login page
