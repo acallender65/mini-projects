@@ -1,9 +1,9 @@
 # mini-projects
 
 This includes: 
-- a simple encryption and decryption tool
+- a simple encryption and decryption tool - realised I uploaded the wrong version
   - to improve I need to:
-      - Add the rest of the ciphers
+      - Add the rest of the ciphers - vignere cipher, playfair cipher, diffie hellman and elgamal cipher not added yet 
 - a simple "safe" login page
   - website writes to a database and encrypts password
   - the website works on your pc if downloaded and/or ran in vscode
